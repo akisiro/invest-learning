@@ -7,13 +7,13 @@
   ],
   "window": {
     "navigationBarTitleText": "投资学习手册",
-    "navigationBarBackgroundColor": "#176b5b",
+    "navigationBarBackgroundColor": "#79543b",
     "navigationBarTextStyle": "white",
-    "backgroundColor": "#f4f6f3"
+    "backgroundColor": "#f7f2e9"
   },
   "tabBar": {
-    "color": "#6b756e",
-    "selectedColor": "#176b5b",
+    "color": "#786657",
+    "selectedColor": "#79543b",
     "list": [
       {
         "pagePath": "pages/library/index",
@@ -27,7 +27,9 @@
         "pagePath": "pages/backup/index",
         "text": "备份"
       }
-    ]
+    ],
+    "backgroundColor": "#fffdf8",
+    "borderStyle": "white"
   },
   "sitemapLocation": "sitemap.json",
   "style": "v2"

@@ -1,6 +1,6 @@
 <view class="wrap"><view class="title">我的学习</view><view class="stats">记录 {{total}} 项 · 已完成 {{done}} 项</view>
  <view class="row"><view wx:for="{{modes}}" wx:key="*this" class="chip {{mode===item?'active':''}}" data-mode="{{item}}" bindtap="filter">{{item}}</view></view>
  <view wx:if="{{error}}" class="error">{{error}}</view>
- <view wx:for="{{items}}" wx:key="id" class="card" data-id="{{item.id}}" bindtap="open"><view class="tag">{{item.kind}}</view><view class="name">{{item.title}}</view><view class="muted">{{item.record.status}} · {{item.record.progress}}% · {{item.record.position}}</view><progress percent="{{item.record.progress}}" activeColor="#176b5b"/><view class="note-preview" wx:if="{{item.record.note}}">{{item.preview}}</view></view>
+ <view wx:for="{{items}}" wx:key="id" class="card" data-id="{{item.id}}" bindtap="open"><view class="tag">{{item.kind}}</view><view class="name">{{item.title}}</view><view class="muted">{{item.record.status}} · {{item.record.progress}}% · {{item.record.position}}</view><progress percent="{{item.record.progress}}" activeColor="#79543b"/><view class="note-preview" wx:if="{{item.record.note}}">{{item.preview}}</view></view>
  <view wx:if="{{!items.length && !error}}" class="empty">这里还没有记录。去资源库选择一项，填写后点击“保存记录”。</view>
 </view>
