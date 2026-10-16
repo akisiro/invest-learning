@@ -2,7 +2,7 @@
 
 ## 项目来源
 
-建站灵感来自 [Financial_freedom](https://github.com/codeman008/Financial_freedom)。本模板重新编写了页面和学习任务，仅保留少量书名、作者等书目信息，没有搬运原 README 的介绍或书籍文件。
+建站灵感来自 [Financial_freedom](https://github.com/codeman008/Financial_freedom)。本模板重新编写了页面和学习任务，整理了书目信息、纪录片片名、频道及工具入口，没有搬运原 README 的介绍、推荐语、视频或书籍文件。
 
 ## 内容规则
 
