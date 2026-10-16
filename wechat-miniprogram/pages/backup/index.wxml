@@ -1,0 +1,10 @@
+<view class="wrap"><view class="title">把学习记录留住</view>
+ <view class="card"><view class="name">当前保存 {{count}} 项记录</view><view class="muted">数据仅保存在当前设备的小程序存储中。换手机、清理微信数据或删除小程序后可能无法找回；模拟器与真机也不自动同步。</view><view class="muted">笔记不会上传到 GitHub 或服务器，也没有账号隔离或加密保险箱功能。共用设备的人可能看到本机记录。</view></view>
+ <view wx:if="{{error}}" class="error">{{error}}</view>
+ <view class="card"><view class="name">导出与恢复</view><view class="muted">先在详情页保存，再点“生成备份”，复制并自行保存到可信位置。恢复时把完整备份文字粘贴到下面，再点击“导入备份”。</view>
+ <button class="primary" bindtap="exportBackup">生成备份</button>
+ <textarea class="backup-text" value="{{text}}" maxlength="1000000" bindinput="input" placeholder="生成的备份或粘贴的备份文字" auto-height="{{false}}"/>
+ <button bindtap="copy">复制备份文字</button><button bindtap="importBackup">导入备份</button>
+ <view class="muted small">备份包含你的笔记全文。复制到剪贴板后，请只保存到你信任的位置。</view></view>
+ <view class="card"><view class="name">关于本地版</view><view class="muted">资源目录整理自投资学习手册网站，包含书目、纪录片、频道和工具；未收录未获许可的 PDF。频道入口与部分纪录片仍待核实。学习主题由本站编写，不提供收益承诺。</view></view>
+ </view>

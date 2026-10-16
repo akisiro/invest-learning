@@ -1,0 +1,23 @@
+{
+  "appid": "wxb4a30c81e27c961a",
+  "projectname": "invest-learning-local",
+  "compileType": "miniprogram",
+  "miniprogramRoot": "./",
+  "setting": {
+    "es6": true,
+    "postcss": true,
+    "minified": true
+  },
+  "packOptions": {
+    "ignore": [
+      {
+        "type": "file",
+        "value": "README.md"
+      },
+      {
+        "type": "folder",
+        "value": "tests"
+      }
+    ]
+  }
+}

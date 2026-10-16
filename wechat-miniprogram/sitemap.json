@@ -1,0 +1,9 @@
+{
+  "desc": "本地学习记录",
+  "rules": [
+    {
+      "action": "disallow",
+      "page": "*"
+    }
+  ]
+}
