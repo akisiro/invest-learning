@@ -5,8 +5,8 @@ module.exports = [
     "title": "富爸爸，穷爸爸",
     "author": "罗伯特·清崎",
     "group": "入门阅读 · 现金流与个人财务观念",
-    "url": "https://search.jd.com/Search?keyword=%E5%AF%8C%E7%88%B8%E7%88%B8%EF%BC%8C%E7%A9%B7%E7%88%B8%E7%88%B8%20%E7%BD%97%E4%BC%AF%E7%89%B9%C2%B7%E6%B8%85%E5%B4%8E&enc=utf-8",
-    "linkLabel": "京东检索（检索页，具体版本需核对）"
+    "url": "https://meta.nlc.cn/v2/index.html",
+    "linkLabel": "国家图书馆馆藏检索（请按书名搜索，馆藏与借阅资格以馆方为准）"
   },
   {
     "id": "book-02",
@@ -14,8 +14,8 @@ module.exports = [
     "title": "小狗钱钱",
     "author": "博多·舍费尔",
     "group": "入门阅读 · 目标与日常金钱习惯",
-    "url": "https://search.jd.com/Search?keyword=%E5%B0%8F%E7%8B%97%E9%92%B1%E9%92%B1%20%E5%8D%9A%E5%A4%9A%C2%B7%E8%88%8D%E8%B4%B9%E5%B0%94&enc=utf-8",
-    "linkLabel": "京东检索（检索页，具体版本需核对）"
+    "url": "https://meta.nlc.cn/v2/index.html",
+    "linkLabel": "国家图书馆馆藏检索（请按书名搜索，馆藏与借阅资格以馆方为准）"
   },
   {
     "id": "book-03",
@@ -23,8 +23,8 @@ module.exports = [
     "title": "穷查理宝典",
     "author": "彼得·考夫曼 编",
     "group": "入门阅读 · 思维模型与判断方法",
-    "url": "https://search.jd.com/Search?keyword=%E7%A9%B7%E6%9F%A5%E7%90%86%E5%AE%9D%E5%85%B8%20%E5%BD%BC%E5%BE%97%C2%B7%E8%80%83%E5%A4%AB%E6%9B%BC%20%E7%BC%96&enc=utf-8",
-    "linkLabel": "京东检索（检索页，具体版本需核对）"
+    "url": "https://meta.nlc.cn/v2/index.html",
+    "linkLabel": "国家图书馆馆藏检索（请按书名搜索，馆藏与借阅资格以馆方为准）"
   },
   {
     "id": "book-04",
@@ -32,8 +32,8 @@ module.exports = [
     "title": "纳瓦尔宝典",
     "author": "埃里克·乔根森 编",
     "group": "入门阅读 · 财富与生活选择",
-    "url": "https://search.jd.com/Search?keyword=%E7%BA%B3%E7%93%A6%E5%B0%94%E5%AE%9D%E5%85%B8%20%E5%9F%83%E9%87%8C%E5%85%8B%C2%B7%E4%B9%94%E6%A0%B9%E6%A3%AE%20%E7%BC%96&enc=utf-8",
-    "linkLabel": "京东检索（检索页，具体版本需核对）"
+    "url": "https://meta.nlc.cn/v2/index.html",
+    "linkLabel": "国家图书馆馆藏检索（请按书名搜索，馆藏与借阅资格以馆方为准）"
   },
   {
     "id": "book-05",
@@ -41,8 +41,8 @@ module.exports = [
     "title": "投资中最简单的事",
     "author": "邱国鹭",
     "group": "入门阅读 · 投资判断的依据",
-    "url": "https://search.jd.com/Search?keyword=%E6%8A%95%E8%B5%84%E4%B8%AD%E6%9C%80%E7%AE%80%E5%8D%95%E7%9A%84%E4%BA%8B%20%E9%82%B1%E5%9B%BD%E9%B9%AD&enc=utf-8",
-    "linkLabel": "京东检索（检索页，具体版本需核对）"
+    "url": "https://meta.nlc.cn/v2/index.html",
+    "linkLabel": "国家图书馆馆藏检索（请按书名搜索，馆藏与借阅资格以馆方为准）"
   },
   {
     "id": "book-06",
@@ -50,8 +50,8 @@ module.exports = [
     "title": "聪明的投资者",
     "author": "本杰明·格雷厄姆",
     "group": "入门阅读 · 投资原则与安全边际",
-    "url": "https://search.jd.com/Search?keyword=%E8%81%AA%E6%98%8E%E7%9A%84%E6%8A%95%E8%B5%84%E8%80%85%20%E6%9C%AC%E6%9D%B0%E6%98%8E%C2%B7%E6%A0%BC%E9%9B%B7%E5%8E%84%E5%A7%86&enc=utf-8",
-    "linkLabel": "京东检索（检索页，具体版本需核对）"
+    "url": "https://meta.nlc.cn/v2/index.html",
+    "linkLabel": "国家图书馆馆藏检索（请按书名搜索，馆藏与借阅资格以馆方为准）"
   },
   {
     "id": "book-07",
@@ -59,8 +59,8 @@ module.exports = [
     "title": "指数基金投资指南",
     "author": "银行螺丝钉",
     "group": "入门阅读 · 指数与基金基础",
-    "url": "https://search.jd.com/Search?keyword=%E6%8C%87%E6%95%B0%E5%9F%BA%E9%87%91%E6%8A%95%E8%B5%84%E6%8C%87%E5%8D%97%20%E9%93%B6%E8%A1%8C%E8%9E%BA%E4%B8%9D%E9%92%89&enc=utf-8",
-    "linkLabel": "京东检索（检索页，具体版本需核对）"
+    "url": "https://meta.nlc.cn/v2/index.html",
+    "linkLabel": "国家图书馆馆藏检索（请按书名搜索，馆藏与借阅资格以馆方为准）"
   },
   {
     "id": "book-08",
@@ -68,8 +68,8 @@ module.exports = [
     "title": "投资最重要的事",
     "author": "霍华德·马克斯",
     "group": "进阶阅读 · 风险与周期",
-    "url": "https://search.jd.com/Search?keyword=%E6%8A%95%E8%B5%84%E6%9C%80%E9%87%8D%E8%A6%81%E7%9A%84%E4%BA%8B%20%E9%9C%8D%E5%8D%8E%E5%BE%B7%C2%B7%E9%A9%AC%E5%85%8B%E6%96%AF&enc=utf-8",
-    "linkLabel": "京东检索（检索页，具体版本需核对）"
+    "url": "https://meta.nlc.cn/v2/index.html",
+    "linkLabel": "国家图书馆馆藏检索（请按书名搜索，馆藏与借阅资格以馆方为准）"
   },
   {
     "id": "book-09",
@@ -77,8 +77,8 @@ module.exports = [
     "title": "证券分析",
     "author": "本杰明·格雷厄姆、戴维·多德",
     "group": "进阶阅读 · 证券研究方法",
-    "url": "https://search.jd.com/Search?keyword=%E8%AF%81%E5%88%B8%E5%88%86%E6%9E%90%20%E6%9C%AC%E6%9D%B0%E6%98%8E%C2%B7%E6%A0%BC%E9%9B%B7%E5%8E%84%E5%A7%86%E3%80%81%E6%88%B4%E7%BB%B4%C2%B7%E5%A4%9A%E5%BE%B7&enc=utf-8",
-    "linkLabel": "京东检索（检索页，具体版本需核对）"
+    "url": "https://meta.nlc.cn/v2/index.html",
+    "linkLabel": "国家图书馆馆藏检索（请按书名搜索，馆藏与借阅资格以馆方为准）"
   },
   {
     "id": "book-10",
@@ -86,8 +86,8 @@ module.exports = [
     "title": "股市进阶之道：一个散户的自我修养",
     "author": "李杰",
     "group": "进阶阅读 · 企业价值与估值",
-    "url": "https://search.jd.com/Search?keyword=%E8%82%A1%E5%B8%82%E8%BF%9B%E9%98%B6%E4%B9%8B%E9%81%93%EF%BC%9A%E4%B8%80%E4%B8%AA%E6%95%A3%E6%88%B7%E7%9A%84%E8%87%AA%E6%88%91%E4%BF%AE%E5%85%BB%20%E6%9D%8E%E6%9D%B0&enc=utf-8",
-    "linkLabel": "京东检索（检索页，具体版本需核对）"
+    "url": "https://meta.nlc.cn/v2/index.html",
+    "linkLabel": "国家图书馆馆藏检索（请按书名搜索，馆藏与借阅资格以馆方为准）"
   },
   {
     "id": "book-11",
@@ -95,8 +95,8 @@ module.exports = [
     "title": "怎样选择成长股",
     "author": "菲利普·费雪",
     "group": "进阶阅读 · 企业研究问题",
-    "url": "https://search.jd.com/Search?keyword=%E6%80%8E%E6%A0%B7%E9%80%89%E6%8B%A9%E6%88%90%E9%95%BF%E8%82%A1%20%E8%8F%B2%E5%88%A9%E6%99%AE%C2%B7%E8%B4%B9%E9%9B%AA&enc=utf-8",
-    "linkLabel": "京东检索（检索页，具体版本需核对）"
+    "url": "https://meta.nlc.cn/v2/index.html",
+    "linkLabel": "国家图书馆馆藏检索（请按书名搜索，馆藏与借阅资格以馆方为准）"
   },
   {
     "id": "book-12",
@@ -104,8 +104,8 @@ module.exports = [
     "title": "一本书读懂财报",
     "author": "肖星",
     "group": "进阶阅读 · 财务报表与业务",
-    "url": "https://search.jd.com/Search?keyword=%E4%B8%80%E6%9C%AC%E4%B9%A6%E8%AF%BB%E6%87%82%E8%B4%A2%E6%8A%A5%20%E8%82%96%E6%98%9F&enc=utf-8",
-    "linkLabel": "京东检索（检索页，具体版本需核对）"
+    "url": "https://meta.nlc.cn/v2/index.html",
+    "linkLabel": "国家图书馆馆藏检索（请按书名搜索，馆藏与借阅资格以馆方为准）"
   },
   {
     "id": "book-13",
@@ -113,8 +113,8 @@ module.exports = [
     "title": "资产配置的艺术",
     "author": "戴维·达斯特",
     "group": "专题拓展 · 资产组合",
-    "url": "https://search.jd.com/Search?keyword=%E8%B5%84%E4%BA%A7%E9%85%8D%E7%BD%AE%E7%9A%84%E8%89%BA%E6%9C%AF%20%E6%88%B4%E7%BB%B4%C2%B7%E8%BE%BE%E6%96%AF%E7%89%B9&enc=utf-8",
-    "linkLabel": "京东检索（检索页，具体版本需核对）"
+    "url": "https://meta.nlc.cn/v2/index.html",
+    "linkLabel": "国家图书馆馆藏检索（请按书名搜索，馆藏与借阅资格以馆方为准）"
   },
   {
     "id": "book-14",
@@ -122,8 +122,8 @@ module.exports = [
     "title": "乌合之众",
     "author": "古斯塔夫·勒庞",
     "group": "专题拓展 · 群体心理",
-    "url": "https://search.jd.com/Search?keyword=%E4%B9%8C%E5%90%88%E4%B9%8B%E4%BC%97%20%E5%8F%A4%E6%96%AF%E5%A1%94%E5%A4%AB%C2%B7%E5%8B%92%E5%BA%9E&enc=utf-8",
-    "linkLabel": "京东检索（检索页，具体版本需核对）"
+    "url": "https://meta.nlc.cn/v2/index.html",
+    "linkLabel": "国家图书馆馆藏检索（请按书名搜索，馆藏与借阅资格以馆方为准）"
   },
   {
     "id": "book-15",
@@ -131,8 +131,8 @@ module.exports = [
     "title": "股票作手回忆录",
     "author": "埃德温·勒费弗",
     "group": "专题拓展 · 交易经历与叙事",
-    "url": "https://search.jd.com/Search?keyword=%E8%82%A1%E7%A5%A8%E4%BD%9C%E6%89%8B%E5%9B%9E%E5%BF%86%E5%BD%95%20%E5%9F%83%E5%BE%B7%E6%B8%A9%C2%B7%E5%8B%92%E8%B4%B9%E5%BC%97&enc=utf-8",
-    "linkLabel": "京东检索（检索页，具体版本需核对）"
+    "url": "https://meta.nlc.cn/v2/index.html",
+    "linkLabel": "国家图书馆馆藏检索（请按书名搜索，馆藏与借阅资格以馆方为准）"
   },
   {
     "id": "book-16",
@@ -140,8 +140,8 @@ module.exports = [
     "title": "股市长线法宝",
     "author": "杰里米·西格尔",
     "group": "专题拓展 · 长期市场数据",
-    "url": "https://search.jd.com/Search?keyword=%E8%82%A1%E5%B8%82%E9%95%BF%E7%BA%BF%E6%B3%95%E5%AE%9D%20%E6%9D%B0%E9%87%8C%E7%B1%B3%C2%B7%E8%A5%BF%E6%A0%BC%E5%B0%94&enc=utf-8",
-    "linkLabel": "京东检索（检索页，具体版本需核对）"
+    "url": "https://meta.nlc.cn/v2/index.html",
+    "linkLabel": "国家图书馆馆藏检索（请按书名搜索，馆藏与借阅资格以馆方为准）"
   },
   {
     "id": "film-01",
