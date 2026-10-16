@@ -71,3 +71,15 @@ for (const name of ['library','shelf','detail','backup']) {
   }
 }
 console.log('PASS: template expressions use executable operators, no HTML entities.');
+
+const wr=require('../data/weread');
+assert.equal(Object.values(wr).filter(x=>x.url).length,4);
+for(const key of Object.keys(wr))assert.ok(catalog.some(x=>x.id===key && x.kind==='书籍'));
+let copied='';wx.setClipboardData=o=>{copied=o.data;};
+page.onLoad({id:'book-01'});page.copyBookTitle();assert.equal(copied,'富爸爸，穷爸爸');
+page.copyWereadLink();assert.equal(copied,wr['book-01'].url);
+page.onLoad({id:'book-02'});page.copyBookTitle();assert.equal(copied,'小狗钱钱');
+page.copyWereadLink();assert.equal(copied,'小狗钱钱');
+page.onLoad({id:'film-01'});page.copyBookTitle();page.copyWereadLink();assert.equal(copied,'小狗钱钱');
+console.log('PASS: WeRead verified links, title fallback, delisted edition fallback, non-book guard.');
+

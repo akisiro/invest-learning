@@ -2,6 +2,13 @@
  <block wx:if="{{item && !error}}">
  <view class="card"><view class="tag">{{item.kind}}</view><view class="name">{{item.title}}</view><view class="muted">{{item.author}}</view><view class="muted">{{item.group}}</view>
  <view wx:if="{{item.url}}" class="muted">{{item.linkLabel}}</view><button wx:if="{{item.url}}" bindtap="copyLink">复制资源链接</button><view class="muted small">外部链接请粘贴到浏览器打开；购买、订阅或地区限制以对应平台为准。</view></view>
+ <view wx:if="{{item.kind==='书籍'}}" class="card">
+ <view class="name">微信读书</view>
+ <view class="muted">{{item.weread.note}}</view>
+ <button wx:if="{{item.weread.url}}" class="primary" bindtap="copyWereadLink">复制微信读书书页链接</button>
+ <button bindtap="copyBookTitle">复制书名，到微信读书搜索</button>
+ <view class="muted small">书页链接请在浏览器打开；搜索请自行打开微信读书并粘贴书名。本小程序不自动跳转或同步阅读记录。核对日期：2026-10-16。</view>
+ </view>
  <view class="card">
  <view class="row"><text>加入收藏</text><switch checked="{{favorite}}" color="#ac8866" bindchange="toggleFavorite"/></view>
  <text class="label">学习状态</text><picker range="{{statuses}}" value="{{statusIndex}}" bindchange="changeStatus"><view class="picker">{{status}} ▾</view></picker>
