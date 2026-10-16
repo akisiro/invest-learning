@@ -1,5 +1,5 @@
 <view class="wrap"><view wx:if="{{error}}" class="error">{{error}}</view>
- <block wx:if="{{item &amp;&amp; !error}}">
+ <block wx:if="{{item && !error}}">
  <view class="card"><view class="tag">{{item.kind}}</view><view class="name">{{item.title}}</view><view class="muted">{{item.author}}</view><view class="muted">{{item.group}}</view>
  <view wx:if="{{item.url}}" class="muted">{{item.linkLabel}}</view><button wx:if="{{item.url}}" bindtap="copyLink">复制资源链接</button><view class="muted small">外部链接请粘贴到浏览器打开；购买、订阅或地区限制以对应平台为准。</view></view>
  <view class="card">

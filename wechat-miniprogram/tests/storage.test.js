@@ -61,3 +61,13 @@ const config=JSON.parse(fs.readFileSync(path.join(root,'app.json'),'utf8'));
 for(const p of config.pages)for(const ext of ['.js','.wxml','.json'])assert.ok(fs.existsSync(path.join(root,p+ext)),p+ext);
 assert.ok(!fs.readFileSync(path.join(root,'pages/shelf/index.wxml'),'utf8').includes('.slice('));
 console.log('PASS: 59 resources, storage round-trip, merge, corrupt/invalid backups, quota failure, draft retention, page configuration.');
+
+for (const name of ['library','shelf','detail','backup']) {
+  const markup=fs.readFileSync(path.join(root,'pages',name,'index.wxml'),'utf8');
+  for (const match of markup.matchAll(/\{\{([\s\S]*?)\}\}/g)) {
+    const expression=match[1];
+    assert.ok(!/&(?:amp|lt|gt|quot|apos);/.test(expression), 'HTML entity inside WXML expression: '+name);
+    assert.doesNotThrow(()=>new Function('return ('+expression+')'), 'Invalid expression: '+name);
+  }
+}
+console.log('PASS: template expressions use executable operators, no HTML entities.');
