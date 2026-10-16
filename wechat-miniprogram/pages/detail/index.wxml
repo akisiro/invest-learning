@@ -3,9 +3,9 @@
  <view class="card"><view class="tag">{{item.kind}}</view><view class="name">{{item.title}}</view><view class="muted">{{item.author}}</view><view class="muted">{{item.group}}</view>
  <view wx:if="{{item.url}}" class="muted">{{item.linkLabel}}</view><button wx:if="{{item.url}}" bindtap="copyLink">复制资源链接</button><view class="muted small">外部链接请粘贴到浏览器打开；购买、订阅或地区限制以对应平台为准。</view></view>
  <view class="card">
- <view class="row"><text>加入收藏</text><switch checked="{{favorite}}" color="#79543b" bindchange="toggleFavorite"/></view>
+ <view class="row"><text>加入收藏</text><switch checked="{{favorite}}" color="#ac8866" bindchange="toggleFavorite"/></view>
  <text class="label">学习状态</text><picker range="{{statuses}}" value="{{statusIndex}}" bindchange="changeStatus"><view class="picker">{{status}} ▾</view></picker>
- <text class="label">完成进度：{{progress}}%</text><slider min="0" max="100" step="1" value="{{progress}}" show-value="{{true}}" activeColor="#79543b" bindchange="changeProgress"/>
+ <text class="label">完成进度：{{progress}}%</text><slider min="0" max="100" step="1" value="{{progress}}" show-value="{{true}}" activeColor="#ac8866" bindchange="changeProgress"/>
  <text class="label">当前章节／集数／时间点</text><input value="{{position}}" maxlength="120" bindinput="positionInput" placeholder="例如：第 3 章 / 第 2 集 15:30"/>
  <text class="label">我的笔记</text><textarea value="{{note}}" maxlength="20000" bindinput="noteInput" placeholder="记录理解、疑问和资料来源。笔记只保存在当前设备。" auto-height="{{false}}"/>
  <view class="muted small">{{note.length}} / 20000 字 · {{dirty?'有修改尚未保存':'修改后请点击保存'}}</view>

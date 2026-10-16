@@ -7,8 +7,8 @@
   ],
   "window": {
     "navigationBarTitleText": "投资学习手册",
-    "navigationBarBackgroundColor": "#79543b",
-    "navigationBarTextStyle": "white",
+    "navigationBarBackgroundColor": "#c4a98e",
+    "navigationBarTextStyle": "black",
     "backgroundColor": "#f7f2e9"
   },
   "tabBar": {
